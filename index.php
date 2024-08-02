@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="7"> <!-- Auto refreshes every 7 secs -->
+    <link rel="stylesheet" href="style.css">
     <title>Dogprint</title>
 </head>
 <body>
@@ -11,7 +13,7 @@
 
     <a href="dogs.php">Dogs</a>
     <br>
-    <a href="dogsday.php">A day in the life of a dog</a>
+    <a href="adogsday.php">A Dogs Day</a>
     
 </body>
 </html>
