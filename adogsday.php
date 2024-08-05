@@ -38,13 +38,13 @@ echo "The time is $time";
         } elseif ($hour >= $walky_time && $hour < $treat_time) {
             echo "It's time for a walk Woof! Woof! Let's go to the park!";
         } elseif ($hour >= $treat_time && $hour < $dinner_time) {
-            echo "Wow the park was so much fun. I found a golf ball. Now can I have a tasty treat? Yum";
+            echo "Wow the park was so much fun. I found a golf ball. Now can I have a tasty treat? Yum Woof!";
         } elseif ($hour >= $dinner_time && $hour < $sleepy_time) {
-            echo "Time for dinner! I love the sound of my bowl being filled.";
+            echo "Time for dinner! I love the sound of my bowl being filled. Yum yum. Scof Burp!";
         } elseif (($hour >= $sleepy_time && $hour < $mad_hour) || ($hour >= 0 && $hour < $brekkie_time)) {
             echo "Zzzz.....zzz....Zzzz....zZzzZ";
         } elseif ($hour >= $mad_hour && $hour < 24) {
-            echo "I feel so hyper. Lets play with the tennis ball. I just love being a dog!";
+            echo "I feel so hyper. It doesn't matter that it is after sundown. It's mad hour before proper sleepy time. Lets play with the tennis ball. I just love being a dog!";
         }
 
         ?>

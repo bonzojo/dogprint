@@ -1,3 +1,11 @@
+<?php
+
+$dog_header="Dogprint";
+$link_dogs="dogs.php";
+$link_dogday="adogsday.php";
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,12 +16,12 @@
     <title>Dogprint</title>
 </head>
 <body>
-    <h1>Dogprint</h1>
-    <p>links:</p>
+    <h1><?=$dog_header?></h1>
 
-    <a href="dogs.php">Dogs</a>
+    <a href="<?=$link_dogs ?>">Dogs</a>
     <br>
-    <a href="adogsday.php">A Dogs Day</a>
-    
+    <a href="<?=$link_dogday ?>">A dogs day</a>
+
+
 </body>
 </html>
